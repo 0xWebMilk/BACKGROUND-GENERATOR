@@ -1,0 +1,66 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
+
+
+body {
+
+    /* FONT */
+    font-family: 'Chivo Mono', monospace;
+    letter-spacing: 0.3em;
+    color: rgba(0, 0, 0, 0.658);
+
+    text-transform: uppercase;
+
+    /* BACKGROUND */
+    background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+a {
+    color: rgba(0, 0, 0, 0.658);
+
+        text-decoration: none;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+/* INPUT */
+input {
+    border: 0;
+    background: none;
+}
+
+
+/* GITHUB ICON */
+.main-github-icon {
+    text-align: center;
+}
+
+.main-github-icon a {
+    font-size: 3em;
+
+    transition: all .2s;
+    text-decoration: none;
+
+        color: #c8c8c8;
+}
+
+.main-github-icon a:hover {
+    font-size: 3.5em;
+
+        color: #ffffff;
+
+            cursor: pointer;
+}
